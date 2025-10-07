@@ -235,7 +235,6 @@
     font: inherit;
     color: var(--textcolor);
     width: 100%; /* allow full width inside container */
-    max-width: 25ch; /* keeps it from growing too large */
     padding: 0 0; /* add horizontal breathing room */
     box-sizing: border-box;
     box-shadow: var(--box-shadow);
@@ -247,6 +246,8 @@
   .options-container input[type="date"] {
     position: relative;
     -webkit-appearance: none;
+    max-width: 25ch; /* keeps it from growing too large */
+
     appearance: none;
     line-height: normal;
     height: 2.5rem;
