@@ -228,7 +228,7 @@
     color: var(--textcolor);
     width: 100%; /* allow full width inside container */
     max-width: 35ch; /* keeps it from growing too large */
-    padding: 0.4rem 0.6rem; /* add horizontal breathing room */
+    padding: 0 0.6rem; /* add horizontal breathing room */
     box-sizing: border-box;
     box-shadow: var(--box-shadow);
     border: none;
