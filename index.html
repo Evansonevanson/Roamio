@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL"
+    />
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/media.css" />
+
+    <title>Roamio</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="main-container">
+        <div class="nav-container">
+          <div class="left">
+            <div class="logo">Roamio</div>
+            <div class="nav-links">
+              <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="right">
+            <input type="search" placeholder="Search..." class="search" />
+            <div class="get-started">
+              <button>Get Started</button>
+            </div>
+            <span class="material-symbols-outlined"> menu </span>
+          </div>
+        </div>
+
+        <section class="hero">
+          <div class="plane">
+            <img src="./images/plane.png" alt="" />
+          </div>
+
+          <div class="hero-left">
+            <div class="hero-heading">
+              <h1>Plan easy, Pay less</h1>
+              <h1>and Experience more</h1>
+            </div>
+            <div class="hero-sub-text">
+              <p>
+                Unleash the possibilities of enchanting destinations, ensuring
+                your holiday is wrapped in comfort and convenience.
+              </p>
+              <button>Learn More</button>
+            </div>
+            <div class="hero-left-image">
+              <img src="./images/Hero image 1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="hero-right"></div>
+
+          <div class="select-container">
+            <div class="destinations-container price-container date-container">
+              <div class="icon-container">
+                <span class="material-symbols-outlined"> location_on </span>
+              </div>
+              <div class="options-container">
+                <p>Destinations</p>
+                <select name="destinations" id="destinations">
+                  <option value="Mombasa, Kenya">Mombasa, Kenya</option>
+                  <option value="Zanzibar, Tanzania">Zanzibar, Tanzania</option>
+                  <option value="Lamu, Kenya">Lamu, Kenya</option>
+                  <option value="Seychelles">Seychelles</option>
+                  <option value="Zanzibar, Tanzania">Zanzibar, Tanzania</option>
+                  <option value="Quilalea Island, Mozambique">
+                    Quilalea Island, Mozambique
+                  </option>
+                  <option value="Essaouira, Morocco">Essaouira, Morocco</option>
+                  <option value="Nosy Be, Madagascar">
+                    Nosy Be, Madagascar
+                  </option>
+                  <option value="Saint-Louis, Senegal">
+                    Saint-Louis, Senegal
+                  </option>
+                  <option value="Lagos, Nigeria">Lagos, Nigeria</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="destinations-container price-container date-container">
+              <div class="icon-container">
+                <span class="material-symbols-outlined"> attach_money </span>
+              </div>
+              <div class="options-container">
+                <p>Average Price</p>
+                <select name="destinations" id="destinations">
+                  <option value="$600 - $1000">$600 - $1000</option>
+                  <option value="$1200 - $1500">$1200 - $1500</option>
+                  <option value="$800 - $1400">$800 - $1400</option>
+                  <option value="$500 - $1000">$500 - $1000</option>
+                  <option value="$1000 - $1500">$1000 - $1500</option>
+                  <option value="$600 - $1600">$600 - $1600</option>
+                  <option value="$1200 - $1700">$1200 - $1700</option>
+                  <option value="$1100 - $1500">$1100 - $1500</option>
+                  <option value="$900 - $1500">$900 - $1500</option>
+                  <option value="$800 - $1400">$800 - $1400</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="destinations-container price-container date-container">
+              <div class="icon-container">
+                <span class="material-symbols-outlined"> calendar_month </span>
+              </div>
+              <div class="options-container">
+                <p>Date</p>
+                <input type="date" id="travel-date" value="2025-10-05" />
+              </div>
+            </div>
+
+            <button>Search</button>
+          </div>
+        </section>
+
+        <section class="popular-destination">
+          <div class="h2-heading">
+            <h2>Popular Destination</h2>
+            <p>Unleash your wonderlust with Roamio</p>
+          </div>
+          <div class="pd-container">
+            <div class="pd">
+              <div class="pd-image">
+                <div class="rating">
+                  <span class="material-symbols-outlined"> star </span>
+                  <p>4.9</p>
+                </div>
+                <img src="./images/pd image 1.jpg" alt="" />
+              </div>
+              <div class="pd-details">
+                <div class="pd-text">
+                  <h2>Seychelles</h2>
+                  <div class="location">
+                    <span class="material-symbols-outlined"> location_on </span
+                    >Seychelles
+                  </div>
+                </div>
+                <div class="pd-button">
+                  <button>Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="pd">
+              <div class="pd-image">
+                <div class="rating">
+                  <span class="material-symbols-outlined"> star </span>
+                  <p>4.8</p>
+                </div>
+                <img src="./images/pd image 2.jpg" alt="" />
+              </div>
+              <div class="pd-details">
+                <div class="pd-text">
+                  <h2>Santorini</h2>
+                  <div class="location">
+                    <span class="material-symbols-outlined"> location_on </span
+                    >Greece
+                  </div>
+                </div>
+                <div class="pd-button">
+                  <button>Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="pd">
+              <div class="pd-image">
+                <div class="rating">
+                  <span class="material-symbols-outlined"> star </span>
+                  <p>4.6</p>
+                </div>
+                <img src="./images/pd image 3.jpg" alt="" />
+              </div>
+              <div class="pd-details">
+                <div class="pd-text">
+                  <h2>Cape Town</h2>
+                  <div class="location">
+                    <span class="material-symbols-outlined"> location_on </span
+                    >South Africa
+                  </div>
+                </div>
+                <div class="pd-button">
+                  <button>Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="pd">
+              <div class="pd-image">
+                <div class="rating">
+                  <span class="material-symbols-outlined"> star </span>
+                  <p>4.2</p>
+                </div>
+                <img src="./images/pd image 4.jpg" alt="" />
+              </div>
+              <div class="pd-details">
+                <div class="pd-text">
+                  <h2>Queenstown</h2>
+                  <div class="location">
+                    <span class="material-symbols-outlined"> location_on </span
+                    >New Zealand
+                  </div>
+                </div>
+                <div class="pd-button">
+                  <button>Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="pd">
+              <div class="pd-image">
+                <div class="rating">
+                  <span class="material-symbols-outlined"> star </span>
+                  <p>4.7</p>
+                </div>
+                <img src="./images/pd image 5.jpg" alt="" />
+              </div>
+              <div class="pd-details">
+                <div class="pd-text">
+                  <h2>Rome</h2>
+                  <div class="location">
+                    <span class="material-symbols-outlined"> location_on </span
+                    >Italy
+                  </div>
+                </div>
+                <div class="pd-button">
+                  <button>Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="pd">
+              <div class="pd-image">
+                <div class="rating">
+                  <span class="material-symbols-outlined"> star </span>
+                  <p>3.9</p>
+                </div>
+                <img src="./images/pd image 6.jpg" alt="" />
+              </div>
+              <div class="pd-details">
+                <div class="pd-text">
+                  <h2>Machu Picchu</h2>
+                  <div class="location">
+                    <span class="material-symbols-outlined"> location_on </span
+                    >Peru
+                  </div>
+                </div>
+                <div class="pd-button">
+                  <button>Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="love">
+          <div class="love-container">
+            <div class="h2-heading">
+              <h2>Love From Our Travelers</h2>
+              <p>Satisfied customers are our biggest ads.</p>
+            </div>
+            <div class="love-images">
+              <div class="image image1"></div>
+              <div class="image image2"></div>
+              <div class="image image3"></div>
+              <div class="image image4"></div>
+              <div class="image image5"></div>
+            </div>
+          </div>
+          <div class="reviews-container">
+            <div class="reviews-text-container">
+              <div class="reviews-text">
+                <p>
+                  "Booking our honeymoon with [Agency Name] was the best
+                  decision! Our agent, Sarah, took all the stress out of the
+                  planning process. She got us an incredible deal at an
+                  all-inclusive resort and even secured a room upgrade.
+                  Everything from the flights to the airport transfers was
+                  flawlessly organized. When our flight was delayed, she was
+                  already on it, texting us new options before we even landed.
+                  Highly recommend for a truly stress-free and memorable trip."
+                </p>
+                <h3>— J. & M. Chen, Antigua</h3>
+              </div>
+              <div class="reviews-text">
+                <p>
+                  "I was a little nervous about joining a group tour as a solo
+                  traveler, but it was an amazing experience! [Agency Name]
+                  paired me with a group of like-minded adventurers, and we
+                  immediately felt like a family. Our local guide, Maria, was
+                  knowledgeable, fun, and made sure we experienced the real
+                  local culture, not just the tourist traps. It truly pushed me
+                  out of my comfort zone in the best way. I'm already looking at
+                  booking my next adventure with them!"
+                </p>
+                <h3>— Alex R., UK</h3>
+              </div>
+              <div class="reviews-text">
+                <p>
+                  "The attention to detail was incredible. The itinerary was
+                  perfectly curated to match exactly what we wanted, blending
+                  historical sites with relaxing downtime. But what really set
+                  [Agency Name] apart was the in-country support. Our driver was
+                  punctual, the hotels were delightful, and we had access to a
+                  24/7 support line that was quick to answer even the smallest
+                  question. It felt like we had a personal travel assistant
+                  every step of the way. Thank you for making our family trip a
+                  huge success!"
+                </p>
+                <h3>— Pam G., Australia</h3>
+              </div>
+              <div class="reviews-text">
+                <p>
+                  "This was our first international trip with the kids, and I
+                  was dreading the logistics. [Agency Name] made everything work
+                  like clockwork. Airfare from two different cities, hotel
+                  rooms, transfers, even local activity bookings—it was all
+                  perfect. We were able to just show up and enjoy the holiday
+                  without a single worry. The whole team is organized, reliable,
+                  and just made the trip so easy. We will absolutely be booking
+                  with them again."
+                </p>
+                <h3>— The Miller Family, California</h3>
+              </div>
+              <div class="reviews-text">
+                <p>
+                  "We had an unexpected flight cancellation that threw our whole
+                  itinerary into chaos, and that's where [Agency Name] really
+                  proved their worth. I sent a quick emergency text, and within
+                  an hour, they had secured new flights, re-booked our train
+                  connections, and notified the hotel. They turned what could
+                  have been a disaster into a minor hiccup. Their proactive
+                  support and quick problem-solving were priceless. I can't
+                  imagine traveling without them now!"
+                </p>
+                <h3>— Janice L., New York</h3>
+              </div>
+            </div>
+            <div class="arrow">
+              <span class="material-symbols-outlined"> arrow_circle_left </span>
+              <span class="material-symbols-outlined">
+                arrow_circle_right
+              </span>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact">
+          <div class="contact-container">
+            <div class="h2-heading">
+              <h2>Contact Us</h2>
+            </div>
+            <form action="#">
+              <div class="input-group">
+                <input type="text" placeholder="Enter Full Name" />
+                <input type="email" placeholder="Enter Email" />
+              </div>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Type Message"
+              ></textarea>
+              <button>Send Message</button>
+            </form>
+          </div>
+        </section>
+
+        <section class="footer-section">
+          <footer class="footer">
+            <div class="footer-container">
+              <div class="footer-logo">
+                <h2>Roamio</h2>
+                <p>
+                  Your journey starts with peace of mind. Explore the world,
+                  we’ll handle the details.
+                </p>
+              </div>
+
+              <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                  <li><a href="#">Destinations</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+
+              <div class="footer-contact">
+                <h3>Contact</h3>
+                <p>Email: info@roamio.com</p>
+                <p>Phone: +234 800 123 4567</p>
+                <p>Address: Lagos, Nigeria</p>
+              </div>
+
+              <div class="footer-socials">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                  <span class="material-symbols-outlined">travel_explore</span>
+                  <span class="material-symbols-outlined">flight</span>
+                  <span class="material-symbols-outlined">favorite</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-bottom">
+              <p>&copy; 2025 Roamio. All rights reserved.</p>
+            </div>
+          </footer>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
