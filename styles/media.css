@@ -220,17 +220,51 @@
     border-radius: var(--border-radius);
   }
 
+  /* General input & select styling */
   .options-container select,
   .options-container input {
-    background-color: transparent;
-    border-radius: 0.5rem;
+    background-color: var(--bgcolor);
     font: inherit;
     color: var(--textcolor);
-    width: 35ch;
-    height: auto;
-    max-width: 100%;
-    box-sizing: border-box; /* ensures padding fits within width */
+    width: 100%; /* allow full width inside container */
+    max-width: 35ch; /* keeps it from growing too large */
+    padding: 0.4rem 0.6rem; /* add horizontal breathing room */
+    box-sizing: border-box;
+    box-shadow: var(--box-shadow);
+    border: none;
+    outline: none;
   }
+
+  /* Date input */
+  .options-container input[type="date"] {
+    position: relative;
+    -webkit-appearance: none;
+    appearance: none;
+    line-height: normal;
+    height: 2.5rem;
+    padding-right: 2.6rem; /* make room for icon */
+    text-align: left;
+    font-size: 0.95rem; /* slightly smaller for full visibility */
+  }
+
+  /* iOS Safari-specific fix */
+  @supports (-webkit-touch-callout: none) {
+    .options-container input[type="date"] {
+      padding-right: 2.8rem;
+    }
+  }
+
+  /* Calendar icon alignment */
+  .options-container input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    right: 0.6rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background-color: transparent;
+    opacity: 1;
+  }
+
   .pd-container {
     display: flex; /* switch from grid to flex */
     flex-direction: row; /* horizontal layout */
