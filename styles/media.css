@@ -188,13 +188,14 @@
   }
 
   .select-container {
+    width: 100%;
+    max-width: 100dvh;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
     border-radius: 0;
     background: var(--bgcolor);
-    width: 100%;
     padding: 1rem 0;
     gap: var(--spacing-md);
   }
@@ -225,7 +226,7 @@
     border-radius: 0.5rem;
     font: inherit;
     color: var(--textcolor);
-    width: 40ch;
+    width: 35ch;
     height: auto;
     max-width: 100%;
     box-sizing: border-box; /* ensures padding fits within width */
